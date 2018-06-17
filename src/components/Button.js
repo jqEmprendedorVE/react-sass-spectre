@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 
 const Button = () => (
   <Fragment>
-    <button>
+    <button className="btn">
       I am a button.
     </button>
   </Fragment>

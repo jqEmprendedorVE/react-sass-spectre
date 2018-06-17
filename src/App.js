@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-import './sass/App.css';
-import Button from './components/Button.js';
+import React, { Component, Fragment } from 'react';
+import './sass/spectre.css';
+import './sass/spectre-icons.css';
+import './sass/spectre-exp.css';
+import Home from './scenes/Home';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Button />
-      </div>
+      <Fragment>
+        <Home/>
+      </Fragment>
     );
   }
 }
